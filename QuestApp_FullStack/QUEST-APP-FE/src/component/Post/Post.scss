@@ -1,0 +1,33 @@
+.postContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFAFA;
+    height: 100%;
+
+}
+
+.post{
+    width: 70%;
+    margin: 25px 0 0 0;
+
+}
+
+.postComment{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FFFAFA;
+    align-items: end;
+}
+
+.comments {
+    text-decoration: underline;
+    display: none
+}
+
+.comments.show-comm {
+    background-color: black;
+    display: block;
+}
